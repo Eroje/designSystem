@@ -1,0 +1,82 @@
+
+h1, h2, .move {
+    margin-left: 10px;
+}
+
+.colors {
+    border: 1px solid black;
+}
+
+.blue {
+    border: 1px solid blue;
+    margin-left: 10px;
+    display: inline-block;
+    width: 30%;
+    background-color: #2d5dcc;
+    color: white;
+    text-align: center;
+}
+
+.pink {
+    border: 1px solid pink;
+    margin: 2px;
+    display: inline-block;
+    width: 30%;
+    background-color: #d957d9;
+    text-align: center;
+}
+
+.mint {
+    border: 1px solid #00FFCA;
+    margin: 2px;
+    display: inline-block;
+    width: 30%;
+    background-color: #4fe0b0;
+    text-align: center;
+}
+
+.beige {
+    border: 1px solid beige;
+    margin: 30px 10px;
+    display: inline-block;
+    width: 30%;
+    background-color: #efd9ca;
+    text-align: center;
+}
+.fonts, .text {
+    border: 1px solid black;
+    margin-top: 10px; 
+}
+
+.pro, .sans, .poppins {
+    text-decoration: underline;    
+}
+
+#pro1, #sans1, #pops {
+    border: 1px solid white;
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#pro1 {
+    font-family: 'Source Code Pro', monospace;    
+}
+
+#sans1 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#pops {
+    font-family: 'Poppins', sans-serif;
+}
+
+#pro1 .bold {
+    font-weight: bold;
+}
+#sans1 .bold {
+    font-weight: bold;
+}
+#pops .bold {
+    font-weight: bold;
+}
